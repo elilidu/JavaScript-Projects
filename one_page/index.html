@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/css_one_page.css">
+    <script src="Java_script/javascript_one_page.js"> </script>
+</head>
+<body>
+    <body>
+      <center>
+
+      <div class="sec_1">
+        <nav><h3>
+          <a href=""> Home </a>  |
+          <a href="#basment">Basement Service </a>|
+          <a href="#deck"> Deck </a> |
+          <a href="#galary">Gallery </a> |
+          <a href="#cont_me">Contact Me</a>
+          </h3>
+          <NAV>
+        <table >
+          <tr>
+            <th align="center">BETESERI HOME REPAIRING AND FINISHING WORK</th>
+          </tr>
+        </table>
+      </div>
+
+
+      <div > 
+        <img id="home_pic" src="./images/renovation.jpg" >
+      
+       </div>
+
+        <h2 style="text-align:center" id="basment">Basement Service</h2>
+        
+        <div class="row">
+          <div class="column">
+            <img src="Images/renovated_1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="Images/renovated_2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="Images/renovated_3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="Images/renovated6.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+          </div>
+        </div>
+        
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+        
+            <div class="mySlides">
+              <div class="numbertext">1 / 4</div>
+              <img src="Images/renovated_1.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">2 / 4</div>
+              <img src="Images/renovated_2.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">3 / 4</div>
+              <img src="Images/renovated_3.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+              <div class="numbertext">4 / 4</div>
+              <img src="Images/renovated6.jpg" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+        
+        
+            <div class="column">
+              <img class="demo cursor" src="Images/renovated_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="Images/renovated_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="Images/renovated_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="Images/renovated6.jpg" style="width:100%" onclick="currentSlide(4)" alt="Mountains and fjords">
+            </div>
+
+          </div>
+        </div>
+        <br>
+        <div id ="deck">
+         <h3>Deck Service</h3>
+         
+        </div>
+      <div>
+        <img  src="./images/decks.jpg" width="70%" height="50%">
+      </div>
+      <br>
+      <div>
+       <img  src="./images/decks_2.webp" width="70%" height="50%">
+      </div>
+     
+     <div id="galary">
+         <h3>Gallery</h3>
+     </div>
+      <div>
+        <iframe width="560" height="315" src="./Video/reno_vidio.mp4" frameborder="0" ></iframe>
+        </iframe>
+      </div>
+   </div>
+   <!--End Section 2/ Image continer -->
+
+        <!--customer form-->
+			
+<div id="cont_me">
+  <div>
+    <h2>Discover More</h2>
+    <p>
+      Please provide us with your basic contact information 
+    </p>
+  </div>
+  <form action="" method="post">
+    <label >Name</label><br >
+    <input class="rsvp" type="text" value="First Name"><br>
+    <input class="rsvp" type="text" value="Last Name"><br>
+    <label >Addres</label><br >
+    <input class="rsvp" type="text" value="Email Address"><br>
+    <label >Phone</label><br >
+    <input class="rsvp" type="text" value="Phone Number">
+    
+    <div>
+      <input type="submit" value="submit">
+    </div>
+  </form>
+</div>
+  
+ <!-- FOOTER-->
+ 
+<div class="sec_3">
+  <footer>
+    <p><h3>CONTACT US</h3>
+     <h4>Call us</h4>
+     <h4>+123456778</h4>
+     <h4>Email us</h4>
+     <h4>myemail@reno.com</h4>
+   </p>
+  </footer>
+</div>
+</center>
+  <!--END FOOTHER-->
+    
+</body>
+</html>
