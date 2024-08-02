@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<haed>
+		<link rel="stylesheet" type="text/css" href="./CSS/one_page_website.css">
+		<script src="./JS/one_page_website.js"></script>
+	</head>
+	<body>
+		<center>
+	<!-- MENU-->
+	<div class="sec_1">
+		<ul>
+			<li><a href=""> Home </a> </li> 
+			<li><a href="#basment">Basement</a></li>
+			<li><a href="#deck"> Deck </a> </li>
+			<li><a href="#galary">Gallery </a> </li>
+			<li><a href="#cont_me">Contact </a></li>
+		</ul>
+					
+	</div>
+	<br>		
+    <div id="myhead">
+		<h1>BETESERI  HOME REPAIRING AND FINISHING WORK</h1>
+	</div>
+				
+	
+
+	
+				<!-- Image container -->
+	
+				
+	<div class="sec_2">
+		<div>
+			<img  src="./images/renovation.jpg" width="800px" height="650px" onclick="myclick()">
+		</div>
+				 
+		<div id="basment">
+			<h3>Basement Service</h3>	
+		</div>
+	</div>
+		
+
+		<!-- Images used to open the lightbox -->
+
+	<div class="row">
+
+		<div class="column">
+	 		 <img src="./images/renovated_1.jpg" onclick="openModal();currentSlide(1)" id="myImag" class="hover-shadow" alt="Snow" style="width:100%;max-width:300px">
+		</div>
+
+		<div class="column">
+			<img src="./images/renovated_2.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+		</div>
+	 	 
+		
+
+		<div class="column">
+			<img src="./images/renovated_3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+		</div>
+
+		<div class="column">
+			<img src="./images/renovated_1.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+	    </div>
+
+  </div>
+
+
+  <div class="row">
+	<div id ="deck">
+		<h3>Deck Service</h3>	
+	</div>
+
+	
+		<div class="column2">
+			<img  src="./images/decks.jpg">
+		</div>
+			  
+		<div class="column2">
+			<img  src="./images/decks_2.webp">
+		</div>
+	</div>
+ 
+		<div id="galary">
+			<h3>Gallery</h3>
+		</div>
+	
+	
+	<!--End Section 2/ Image continer -->
+
+		<div>
+			<iframe width="560" height="315" src="./Video/reno_vidio.mp4" frameborder="0" ></iframe>
+		</div>
+
+			
+		<!--customer form-->
+			
+	<div id="cont_me">
+		<h2>Discover More</h2>
+			<p>
+				Please provide us with your basic contact information 
+			</p>
+	
+			<form action="" method="post">
+				<label >Name</label><br >
+				<input class="rsvp" type="text" value="First Name"><br>
+				<input class="rsvp" type="text" value="Last Name"><br>
+				<label >Addres</label><br >
+				<input class="rsvp" type="text" value="Email Address"><br>
+				<label >Phone</label><br >
+				<input class="rsvp" type="text" value="Phone Number">
+
+				<div>
+					<input type="submit" value="submit">
+				</div>
+
+			</form>
+	</div>
+					
+	<!-- FOOTER-->
+				 
+	<div class="sec_3">
+		<footer>
+			<p>
+				<h3>CONTACT US</h3>
+					<h4>Call us</h4>
+					<h4>+123456778</h4>
+					<h4>Email us</h4>
+					<h4>myemail@reno.com</h4>
+			</p>
+				</footer>
+	</div>
+				
+		<!--END FOOTHER-->
+	
+	</center>
+		
+	</body>
+</html>
